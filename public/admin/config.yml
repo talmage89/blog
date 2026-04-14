@@ -4,7 +4,7 @@ backend:
   branch: main
 
 media_folder: public/images
-public_folder: /images
+public_folder: /blog/images
 
 collections:
   - name: posts
@@ -15,6 +15,10 @@ collections:
     fields:
       - { label: title, name: title, widget: string }
       - { label: date, name: date, widget: datetime }
-      - { label: tags, name: tags, widget: list, default: [] }
+      - label: tags
+        name: tags
+        widget: list
+        default: []
+        hint: one tag per line
       - { label: draft, name: draft, widget: boolean, default: false }
       - { label: body, name: body, widget: markdown }
