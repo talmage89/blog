@@ -22,3 +22,9 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# vscode
+.vscode/
+
+# pnpm workspace (not a monorepo)
+pnpm-workspace.yaml
