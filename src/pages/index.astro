@@ -15,7 +15,7 @@ const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
 const posts = allPosts.slice(0, PAGE_SIZE);
 ---
 
-<Base title="blog">
+<Base>
   <ul>
     {
       posts.map((post) => (

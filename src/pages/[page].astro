@@ -27,7 +27,7 @@ const start = (page - 1) * pageSize;
 const posts = allPosts.slice(start, start + pageSize);
 ---
 
-<Base title={`blog — page ${page}`}>
+<Base title={`Page ${page}`}>
   <ul>
     {
       posts.map((post) => (

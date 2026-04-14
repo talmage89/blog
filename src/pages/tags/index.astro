@@ -17,8 +17,8 @@ for (const post of allPosts) {
 const tags = [...tagCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 ---
 
-<Base title="tags">
-  <h1>tags</h1>
+<Base title="Tags">
+  <h1>Tags</h1>
   <ul>
     {
       tags.map(([tag, count]) => (
