@@ -45,7 +45,8 @@ const posts = allPosts.slice(start, start + pageSize);
 ---
 
 <Base title={`#${tag}`}>
-  <h1>posts tagged #{tag}</h1>
+  <span class="tag">{tag}</span>
+  <hr />
   <ul>
     {
       posts.map((post) => (
@@ -53,7 +54,6 @@ const posts = allPosts.slice(start, start + pageSize);
           <time datetime={post.data.date.toISOString().slice(0, 10)}>
             {post.data.date.toISOString().slice(0, 10)}
           </time>
-          &nbsp;
           <Link href={`/posts/${post.id}`}>{post.data.title}</Link>
         </li>
       ))

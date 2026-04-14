@@ -7,15 +7,6 @@
 - **github pages** — hosting via `gh-pages` branch
 - **github actions** — ci/cd, build + deploy on push to `main`
 
-## design
-
-- brutalist. no rounded corners, no shadows, no gradients.
-- monospace font (system monospace stack)
-- black and white only. no color.
-- all text lowercase (css `text-transform: lowercase`)
-- minimal spacing. no hero images. no decorative elements.
-- responsive by default — single column, fluid width with max-width cap
-
 ## pages
 
 | route           | description                                               |
