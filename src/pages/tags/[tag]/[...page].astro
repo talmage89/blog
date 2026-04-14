@@ -1,11 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
-import Base from '../../../layouts/Base.astro';
-import Link from '../../../components/Link.astro';
+import { getCollection } from "astro:content";
+import Link from "../../../components/Link.astro";
+import Base from "../../../layouts/Base.astro";
 
 export async function getStaticPaths() {
   const pageSize = 10;
-  const allPosts = await getCollection('posts', ({ data }) => {
+  const allPosts = await getCollection("posts", ({ data }) => {
     return import.meta.env.PROD ? !data.draft : true;
   });
 
@@ -29,11 +29,13 @@ export async function getStaticPaths() {
 
 const pageSize = 10;
 const { tag } = Astro.params;
-const pageNum = Astro.params.page ? parseInt(Astro.params.page) : 1;
+const pageNum = Astro.params.page ? parseInt(Astro.params.page, 10) : 1;
 
-const allPosts = (await getCollection('posts', ({ data }) => {
-  return import.meta.env.PROD ? !data.draft : true;
-}))
+const allPosts = (
+  await getCollection("posts", ({ data }) => {
+    return import.meta.env.PROD ? !data.draft : true;
+  })
+)
   .filter((post) => post.data.tags.includes(tag!))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
@@ -41,27 +43,42 @@ const totalPages = Math.ceil(allPosts.length / pageSize);
 const start = (pageNum - 1) * pageSize;
 const posts = allPosts.slice(start, start + pageSize);
 ---
+
 <Base title={`#${tag}`}>
   <h1>posts tagged #{tag}</h1>
   <ul>
-    {posts.map((post) => (
-      <li>
-        <time datetime={post.data.date.toISOString().slice(0, 10)}>
-          {post.data.date.toISOString().slice(0, 10)}
-        </time>
-        &nbsp;
-        <Link href={`/posts/${post.id}`}>{post.data.title}</Link>
-      </li>
-    ))}
+    {
+      posts.map((post) => (
+        <li>
+          <time datetime={post.data.date.toISOString().slice(0, 10)}>
+            {post.data.date.toISOString().slice(0, 10)}
+          </time>
+          &nbsp;
+          <Link href={`/posts/${post.id}`}>{post.data.title}</Link>
+        </li>
+      ))
+    }
   </ul>
-  {totalPages > 1 && (
-    <div class="pagination">
-      {pageNum > 1 ? (
-        <Link href={pageNum === 2 ? `/tags/${tag}` : `/tags/${tag}/${pageNum - 1}`}>&larr; prev</Link>
-      ) : <span></span>}
-      {pageNum < totalPages ? (
-        <Link href={`/tags/${tag}/${pageNum + 1}`}>next &rarr;</Link>
-      ) : <span></span>}
-    </div>
-  )}
+  {
+    totalPages > 1 && (
+      <div class="pagination">
+        {pageNum > 1 ? (
+          <Link
+            href={
+              pageNum === 2 ? `/tags/${tag}` : `/tags/${tag}/${pageNum - 1}`
+            }
+          >
+            &larr; prev
+          </Link>
+        ) : (
+          <span />
+        )}
+        {pageNum < totalPages ? (
+          <Link href={`/tags/${tag}/${pageNum + 1}`}>next &rarr;</Link>
+        ) : (
+          <span />
+        )}
+      </div>
+    )
+  }
 </Base>

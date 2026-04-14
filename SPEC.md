@@ -18,14 +18,14 @@
 
 ## pages
 
-| route | description |
-|---|---|
-| `/` | paginated list of posts, newest first. title, date, tags. |
-| `/[page]` | page 2+ of post list (e.g. `/2`, `/3`). |
-| `/posts/[slug]` | single post. title, date, tags, content. |
-| `/tags` | list of all tags with post counts. |
-| `/tags/[tag]` | paginated list of posts for a given tag. |
-| `/about` | static about page. |
+| route           | description                                               |
+| --------------- | --------------------------------------------------------- |
+| `/`             | paginated list of posts, newest first. title, date, tags. |
+| `/[page]`       | page 2+ of post list (e.g. `/2`, `/3`).                   |
+| `/posts/[slug]` | single post. title, date, tags, content.                  |
+| `/tags`         | list of all tags with post counts.                        |
+| `/tags/[tag]`   | paginated list of posts for a given tag.                  |
+| `/about`        | static about page.                                        |
 
 ## layout
 

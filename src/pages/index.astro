@@ -1,41 +1,50 @@
 ---
-import { getCollection } from 'astro:content';
-import Base from '../layouts/Base.astro';
-import Link from '../components/Link.astro';
+import { getCollection } from "astro:content";
+import Link from "../components/Link.astro";
+import Base from "../layouts/Base.astro";
 
 const PAGE_SIZE = 10;
 
-const allPosts = (await getCollection('posts', ({ data }) => {
-  return import.meta.env.PROD ? !data.draft : true;
-})).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const allPosts = (
+  await getCollection("posts", ({ data }) => {
+    return import.meta.env.PROD ? !data.draft : true;
+  })
+).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
 const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
 const posts = allPosts.slice(0, PAGE_SIZE);
 ---
+
 <Base title="blog">
   <ul>
-    {posts.map((post) => (
-      <li>
-        <time datetime={post.data.date.toISOString().slice(0, 10)}>
-          {post.data.date.toISOString().slice(0, 10)}
-        </time>
-        &nbsp;
-        <Link href={`/posts/${post.id}`}>{post.data.title}</Link>
-        {post.data.tags.length > 0 && (
-          <span class="tags">
-            &nbsp;
-            {post.data.tags.map((tag) => (
-              <Link href={`/tags/${tag}`} class="tag">{tag}</Link>
-            ))}
-          </span>
-        )}
-      </li>
-    ))}
+    {
+      posts.map((post) => (
+        <li>
+          <time datetime={post.data.date.toISOString().slice(0, 10)}>
+            {post.data.date.toISOString().slice(0, 10)}
+          </time>
+          &nbsp;
+          <Link href={`/posts/${post.id}`}>{post.data.title}</Link>
+          {post.data.tags.length > 0 && (
+            <span class="tags">
+              &nbsp;
+              {post.data.tags.map((tag) => (
+                <Link href={`/tags/${tag}`} class="tag">
+                  {tag}
+                </Link>
+              ))}
+            </span>
+          )}
+        </li>
+      ))
+    }
   </ul>
-  {totalPages > 1 && (
-    <div class="pagination">
-      <span></span>
-      <Link href="/2">next &rarr;</Link>
-    </div>
-  )}
+  {
+    totalPages > 1 && (
+      <div class="pagination">
+        <span />
+        <Link href="/2">next &rarr;</Link>
+      </div>
+    )
+  }
 </Base>
