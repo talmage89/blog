@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Link from '../components/Link.astro';
 
 const PAGE_SIZE = 10;
 
@@ -19,12 +20,12 @@ const posts = allPosts.slice(0, PAGE_SIZE);
           {post.data.date.toISOString().slice(0, 10)}
         </time>
         &nbsp;
-        <a href={`/posts/${post.id}`}>{post.data.title}</a>
+        <Link href={`/posts/${post.id}`}>{post.data.title}</Link>
         {post.data.tags.length > 0 && (
           <span class="tags">
             &nbsp;
             {post.data.tags.map((tag) => (
-              <a href={`/tags/${tag}`} class="tag">{tag}</a>
+              <Link href={`/tags/${tag}`} class="tag">{tag}</Link>
             ))}
           </span>
         )}
@@ -34,7 +35,7 @@ const posts = allPosts.slice(0, PAGE_SIZE);
   {totalPages > 1 && (
     <div class="pagination">
       <span></span>
-      <a href="/2">next &rarr;</a>
+      <Link href="/2">next &rarr;</Link>
     </div>
   )}
 </Base>

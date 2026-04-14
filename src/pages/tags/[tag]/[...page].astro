@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
+import Link from '../../../components/Link.astro';
 
 export async function getStaticPaths() {
   const pageSize = 10;
@@ -18,7 +19,6 @@ export async function getStaticPaths() {
   const paths: { params: { tag: string; page: string | undefined } }[] = [];
   for (const [tag, count] of tagMap) {
     const totalPages = Math.ceil(count / pageSize);
-    // page 1 = /tags/[tag] (page param is undefined)
     paths.push({ params: { tag, page: undefined } });
     for (let i = 2; i <= totalPages; i++) {
       paths.push({ params: { tag, page: String(i) } });
@@ -50,17 +50,17 @@ const posts = allPosts.slice(start, start + pageSize);
           {post.data.date.toISOString().slice(0, 10)}
         </time>
         &nbsp;
-        <a href={`/posts/${post.id}`}>{post.data.title}</a>
+        <Link href={`/posts/${post.id}`}>{post.data.title}</Link>
       </li>
     ))}
   </ul>
   {totalPages > 1 && (
     <div class="pagination">
       {pageNum > 1 ? (
-        <a href={pageNum === 2 ? `/tags/${tag}` : `/tags/${tag}/${pageNum - 1}`}>&larr; prev</a>
+        <Link href={pageNum === 2 ? `/tags/${tag}` : `/tags/${tag}/${pageNum - 1}`}>&larr; prev</Link>
       ) : <span></span>}
       {pageNum < totalPages ? (
-        <a href={`/tags/${tag}/${pageNum + 1}`}>next &rarr;</a>
+        <Link href={`/tags/${tag}/${pageNum + 1}`}>next &rarr;</Link>
       ) : <span></span>}
     </div>
   )}

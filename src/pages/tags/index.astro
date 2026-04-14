@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Link from '../../components/Link.astro';
 
 const allPosts = await getCollection('posts', ({ data }) => {
   return import.meta.env.PROD ? !data.draft : true;
@@ -20,7 +21,7 @@ const tags = [...tagCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
   <ul>
     {tags.map(([tag, count]) => (
       <li>
-        <a href={`/tags/${tag}`} class="tag">{tag}</a> ({count})
+        <Link href={`/tags/${tag}`} class="tag">{tag}</Link> ({count})
       </li>
     ))}
   </ul>

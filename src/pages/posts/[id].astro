@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Link from '../../components/Link.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -23,7 +24,7 @@ const { Content } = await render(post);
       <span class="tags">
         &nbsp;
         {post.data.tags.map((tag: string) => (
-          <a href={`/tags/${tag}`} class="tag">{tag}</a>
+          <Link href={`/tags/${tag}`} class="tag">{tag}</Link>
         ))}
       </span>
     )}
