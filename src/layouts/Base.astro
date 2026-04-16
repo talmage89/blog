@@ -7,7 +7,7 @@ interface Props {
   title?: string;
 }
 
-const pageTitle = Astro.props.title ? `Blog | ${Astro.props.title}` : "Blog";
+const pageTitle = Astro.props.title ?? "Blog";
 ---
 
 <!doctype html>
