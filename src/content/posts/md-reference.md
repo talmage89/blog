@@ -5,7 +5,7 @@ tags:
   - test
   - test2
   - test3
-draft: true
+draft: false
 ---
 
 ## Headings
