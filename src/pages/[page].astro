@@ -54,12 +54,6 @@ const posts = allPosts.slice(start, start + pageSize);
   </ul>
   <div class="pagination">
     <Link href={page === 2 ? "/" : `/${page - 1}`}>Prev</Link>
-    {
-      page < totalPages ? (
-        <Link href={`/${page + 1}`}>Next</Link>
-      ) : (
-        <span />
-      )
-    }
+    {page < totalPages ? <Link href={`/${page + 1}`}>Next</Link> : <span />}
   </div>
 </Base>

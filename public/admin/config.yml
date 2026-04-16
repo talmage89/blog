@@ -22,3 +22,13 @@ collections:
         hint: one tag per line
       - { label: draft, name: draft, widget: boolean, default: false }
       - { label: body, name: body, widget: markdown }
+
+  - name: about
+    label: about
+    files:
+      - name: about
+        label: about
+        file: src/content/about/about.md
+        fields:
+          - { label: title, name: title, widget: string }
+          - { label: body, name: body, widget: markdown }

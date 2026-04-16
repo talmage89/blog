@@ -1,11 +1,15 @@
 ---
 import Base from "../layouts/Base.astro";
+import { getEntry, render } from "astro:content";
+
+const entry = (await getEntry("about", "about"))!;
+const { Content } = await render(entry);
 ---
 
-<Base title="About">
+<Base title={entry.data.title}>
   <article>
-    <h1>About</h1>
+    <h1>{entry.data.title}</h1>
     <hr />
-    <p>This is a blog.</p>
+    <Content />
   </article>
 </Base>
