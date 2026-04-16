@@ -75,4 +75,4 @@ Content below the rule.
 
 ## Images
 
-![](/images/IMG_5963.png)
+![](/images/stock.jpg)
