@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Link from "../../../components/Link.astro";
 import Base from "../../../layouts/Base.astro";
+import { displayTags } from "../../../lib/posts";
 
 export async function getStaticPaths() {
   const pageSize = 10;
@@ -11,7 +12,7 @@ export async function getStaticPaths() {
 
   const tagMap = new Map<string, number>();
   for (const post of allPosts) {
-    for (const tag of post.data.tags) {
+    for (const tag of displayTags(post)) {
       tagMap.set(tag, (tagMap.get(tag) ?? 0) + 1);
     }
   }
@@ -36,7 +37,7 @@ const allPosts = (
     return import.meta.env.PROD ? !data.draft : true;
   })
 )
-  .filter((post) => post.data.tags.includes(tag!))
+  .filter((post) => displayTags(post).includes(tag!))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
 const totalPages = Math.ceil(allPosts.length / pageSize);
@@ -45,7 +46,7 @@ const posts = allPosts.slice(start, start + pageSize);
 ---
 
 <Base title={`#${tag}`}>
-  <span class="tag">{tag}</span>
+  <h1>#{tag}</h1>
   <hr />
   <ul>
     {
@@ -68,13 +69,13 @@ const posts = allPosts.slice(start, start + pageSize);
               pageNum === 2 ? `/tags/${tag}` : `/tags/${tag}/${pageNum - 1}`
             }
           >
-            &larr; prev
+            Prev
           </Link>
         ) : (
           <span />
         )}
         {pageNum < totalPages ? (
-          <Link href={`/tags/${tag}/${pageNum + 1}`}>next &rarr;</Link>
+          <Link href={`/tags/${tag}/${pageNum + 1}`}>Next</Link>
         ) : (
           <span />
         )}

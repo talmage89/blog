@@ -27,3 +27,11 @@ pushes to `main` trigger a github actions workflow that builds and deploys to gi
 - `astro.config.mjs` — site config, `base` path
 - `public/admin/config.yml` — cms fields and backend
 - `eslint.config.js` / `.prettierrc` — linting and formatting
+
+## switching to npm
+
+the project uses pnpm by default. to use npm instead:
+
+1. remove `"packageManager"` and `"pnpm"` fields from `package.json`
+2. delete `pnpm-lock.yaml` and run `npm install`
+3. in `.github/workflows/deploy.yml`, remove the `pnpm/action-setup` step, change `cache: pnpm` to `cache: npm`, and replace `pnpm` commands with `npm`

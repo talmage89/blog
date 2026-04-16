@@ -1,122 +1,49 @@
 # design spec
 
-all visual and styling decisions for the blog. the single source of truth — `src/styles/global.css` implements these rules via css custom properties.
-
 ## philosophy
 
-brutalist. stripped-down, typographic.
+brutalist. the design is the absence of design. content is the subject; everything else gets out of the way.
 
-- no rounded corners
-- no shadows
-- no gradients
-- no decorative elements
-- no hero images
-- automatic dark mode via `prefers-color-scheme` (monochrome in both modes)
+**typography is the only visual device.** no rounded corners, no shadows, no gradients, no illustrations, no hero images, no accent colors, no icons-as-decoration. if it isn't text or a hairline rule separating text, it shouldn't be on the page. the site has exactly one family (switzer), one base size, and one accent size for metadata. headings don't scale — `h1`, `h2`, and `h3` are the same size as body text, distinguished only by weight and surrounding whitespace. the reader supplies the hierarchy; the page doesn't shout it.
 
-## font
+**monochrome, always.** two colors: foreground and background. they invert under `prefers-color-scheme: dark`, but the palette never grows beyond that. no link color, no tag color, no highlight, no callout. contrast comes from ink on paper, not from hue.
 
-self-hosted [switzer](https://www.fontshare.com/fonts/switzer) (woff2, weights 400 + 700) in `public/fonts/`. loaded via `@font-face` with `font-display: block` to prevent fouc.
+**no chrome, no affordances beyond the necessary.** no search, no sidebar, no categories, no related posts, no social buttons, no analytics banner, no cookie notice. the nav is two links. the footer is a copyright line. a post is a title, a date, tags, and prose.
 
-## tokens
+**no javascript on the frontend.** the site ships as static html and css. this isn't a performance flex — it's a commitment to the idea that reading a blog should not require a runtime. if a feature needs js to exist, the feature doesn't exist here.
 
-all design tokens are defined as css custom properties on `:root` in `global.css`.
+**whitespace over ornament.** where other designs reach for a divider, a card, or a background color, this one reaches for a blank line. the layout is a single centered column capped at a comfortable measure; nothing fights the text for attention.
 
-### colors
+**brutalism, not hostility.** the aesthetic is raw, not user-hostile. type is legible, line-height is generous, the measure is narrow enough to read without fatigue, and dark mode is automatic. the goal is clarity stripped of decoration, not the appearance of clarity at the cost of it.
 
-| token        | light  | dark      | usage           |
-| ------------ | ------ | --------- | --------------- |
-| `--color-fg` | `#000` | `#d4d4d4` | text, borders   |
-| `--color-bg` | `#fff` | `#0e0e0e` | page background |
+**the spec resists growth.** every new token, component, or rule is a small failure of restraint. before adding anything, ask whether the page truly needs it, or whether the existing primitives already cover it. the shortest version of this spec that still describes the site is the correct one.
 
-`color-scheme: light dark` is set on `:root` so form controls and scrollbars adapt automatically. a `<meta name="color-scheme" content="light dark">` tag in `<head>` prevents flash of wrong theme.
+## structure (reference)
 
-### typography
+- all tokens live as css custom properties on `:root` in `global.css` — the single source of truth for values
+- one stylesheet, no scoped or inline styles in components
+- single centered column, capped at `--max-width`, sticky footer via flex column with `min-height: 100dvh`
+- header and footer separated from content by `<hr>` rules
 
-| token              | value                              | usage              |
-| ------------------ | ---------------------------------- | ------------------ |
-| `--font-sans`      | `"Switzer", system-ui, sans-serif` | all text           |
-| `--font-size-base` | `16px`                             | root font size     |
-| `--font-size-sm`   | `0.875rem`                         | time, tags         |
-| `--line-height`    | `1.6`                              | global line height |
+## type (reference)
 
-### spacing
+- self-hosted switzer (400 + 600), `font-display: block` to avoid fouc
+- one family, two sizes (body + metadata), one generous line-height
+- monospace is the single carve-out: inline and block `code` use the browser default monospace stack, because code is unreadable in proportional type
 
-| token            | value     | usage                                |
-| ---------------- | --------- | ------------------------------------ |
-| `--space-sm`     | `0.5rem`  | tag gaps, subheading bottom margin   |
-| `--space-inline` | `0.75rem` | inline separation (time ↔ tags)      |
-| `--space-md`     | `1rem`    | standard padding, margins, gaps      |
-| `--space-lg`     | `1.5rem`  | list indentation, subheading top gap |
-| `--space-xl`     | `2rem`    | pagination top margin                |
+## color (reference)
 
-### layout
+- `--color-fg` and `--color-bg`, swapped under `prefers-color-scheme: dark`
+- `color-scheme: light dark` on `:root` plus a matching `<meta>` in `<head>` to align form controls, scrollbars, and initial paint
 
-| token         | value   | usage          |
-| ------------- | ------- | -------------- |
-| `--max-width` | `640px` | body max-width |
+## components (reference)
 
-### borders
+- **tags** — inline, `#` prefix via `::before`, metadata size
+- **time** — metadata size, sits inline before tags
+- **pagination** — flex row, space-between
+- **article content** — dash-marker `ul`, decimal `ol`, thick left border on `blockquote`, bordered `pre` with horizontal scroll, monospace inline `code`, responsive images
+- **links** — underlined by default, underline removed on hover
 
-| token            | value                       | usage           |
-| ---------------- | --------------------------- | --------------- |
-| `--border`       | `1px solid var(--color-fg)` | hr, code blocks |
-| `--border-thick` | `2px solid var(--color-fg)` | blockquote left |
+## extending
 
-## global resets & base styles
-
-- universal box-sizing reset (`* { margin: 0; padding: 0; box-sizing: border-box }`)
-- `ul, ol` have `list-style: none` globally (restored inside `article`)
-- `scrollbar-gutter: stable` on `html` to prevent layout shift
-
-## text treatment
-
-- headings (`h1`–`h3`): `font-weight: bold`, `font-size: 1rem` — uniform size, no hierarchy
-- `h1`: `margin-bottom: --space-md`
-- `h2`, `h3`: `margin-top: --space-lg`, `margin-bottom: --space-sm`
-- links: underlined by default, underline removed on hover
-
-## body layout
-
-- `max-width: --max-width`, centered with `margin: 0 auto`, `padding: --space-md`
-- sticky footer via `min-height: 100vh; display: flex; flex-direction: column` with `main { flex: 1 }`
-
-## component styles
-
-### tags
-
-- prefixed with `#` via css `::before` pseudo-element
-- use `--font-size-sm` for size
-- `.tags` container displayed inline with `--space-inline` left margin
-- individual tag links spaced with `--space-sm` right margin
-
-### article content
-
-- paragraphs, lists, blockquotes, pre: `--space-md` bottom margin
-- unordered lists: `list-style: "- "` (dash marker) with `--space-lg` left padding
-- task lists (`.contains-task-list`): no marker, no left padding
-- ordered lists: `list-style: decimal` with `--space-lg` left padding
-- blockquotes: `--border-thick` left border, `--space-md` left padding
-- code blocks: `--border` border, `--space-md` padding, horizontal scroll
-- inline code: `"Courier New", Courier, monospace`
-- images: responsive (`max-width: 100%`, `height: auto`)
-
-### pagination
-
-- flexbox row, space-between alignment
-- `--space-xl` top margin
-
-### header / footer
-
-- separated from content by `<hr>` elements
-- no additional styling beyond global rules
-
-### time
-
-- `--font-size-sm` size
-- `--space-inline` right margin
-
-## responsive approach
-
-- single media query: `prefers-color-scheme: dark` (for dark mode colors only)
-- single column layout, fluid width capped at `--max-width`
-- body centered with `margin: 0 auto` and `--space-md` padding
+if a new element isn't covered by the existing primitives, first justify it against the philosophy above. if it survives, extend this doc, then add the rule to `global.css`. never the other way around.

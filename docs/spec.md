@@ -1,63 +1,53 @@
 # blog spec
 
+## intent
+
+the system is a modular foundation for a personal blog. its sole purpose is to publish writing. all other concerns are subordinate to that.
+
+design is decoupled from structure. the current site applies a brutalist aesthetic, but the foundation carries no visual assumptions. a fork requires only a new stylesheet.
+
+the architecture optimizes for stability. the system is built once. breakage traces to an obvious cause. any change is small and local.
+
+## priorities
+
+- simplicity
+- minimalism
+- speed
+
 ## stack
 
-- **astro** — static site generator
-- **sveltia cms** — git-based cms at `/admin`, decap cms drop-in replacement
-- **github pages** — hosting via `gh-pages` branch
-- **github actions** — ci/cd, build + deploy on push to `main`
-
-## pages
-
-| route           | description                                               |
-| --------------- | --------------------------------------------------------- |
-| `/`             | paginated list of posts, newest first. title, date, tags. |
-| `/[page]`       | page 2+ of post list (e.g. `/2`, `/3`).                   |
-| `/posts/[slug]` | single post. title, date, tags, content.                  |
-| `/tags`         | list of all tags with post counts.                        |
-| `/tags/[tag]`   | paginated list of posts for a given tag.                  |
-| `/about`        | static about page.                                        |
-
-## layout
-
-- **header** — site title (links to `/`), nav links: posts, about
-- **footer** — just a `©` line
-- no sidebar. no categories. no search.
-- tags shown inline next to post titles on list pages and on detail page
+- astro
+- sveltia cms
+- github pages
+- github actions
 
 ## content
 
-- markdown files in `src/content/posts/`
+- markdown in `src/content/posts/`
 - frontmatter: `title`, `date`, `tags` (string array, optional), `draft` (boolean)
 - drafts hidden in production, visible in dev
-- astro content collections for type safety
 
-## cms
+## pages
 
-- sveltia cms served at `/admin`
-- github backend (repo, branch: `main`)
-- media stored in `public/images/`
-- collection config for posts matching the frontmatter schema above
-- oauth: use sveltia cms's built-in github oauth (no external proxy needed — works via github oauth app + `pkce` flow)
+- `/` — paginated post list, newest first
+- `/posts/[slug]` — single post
+- `/tags` — all tags with counts
+- `/tags/[tag]` — paginated posts for a tag
+- `/about` — static page
+- prev/next links.
 
-## ci/cd
-
-- single github actions workflow: `.github/workflows/deploy.yml`
-- triggers on push to `main`
-- steps: checkout → install → build → deploy to gh-pages
-- use `pnpm` for fast installs (cached)
-- target: under 1 minute total run time
-
-## non-goals
+## deliberate omissions
 
 - no analytics
 - no comments
-- no rss (can add later)
-- no dark mode
-- no javascript on the frontend (astro static output only)
+- no rss
+- no search
+- no sidebar
+- no javascript
+- no user-facing configuration
 
-## pagination
+## owner experience
 
-- 10 posts per page
-- prev/next links at bottom of list pages
-- applies to `/` and `/tags/[tag]`
+the publishing workflow is: author a markdown file or use the cms, then push to main. the site is live on deploy. there is no staging environment, no preview step, and no approval flow.
+
+the cms provides a graphical editing interface. it is optional. the site functions identically without it.
