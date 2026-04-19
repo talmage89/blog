@@ -2,4 +2,4 @@
 title: About
 ---
 
-This site is a platform for thoughts that I have chosen to expose to the internet. While I make no claims of factual accuracy in my writing, and while it's possible that some posts may be blatantly uninformed, I hope the public nature of this writing will encourage me to publish thoughtfully.
+This site is a platform for thoughts that I have chosen to expose to the internet. The intent behind publishing publicly is that it provides a level of accountability to these persistent, refined trains of thought that I post, present both during the writing process itself and for the entirety of the post's lifetime. It's a public journal.
