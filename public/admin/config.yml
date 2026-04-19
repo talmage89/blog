@@ -20,10 +20,11 @@ collections:
       - label: tags
         name: tags
         widget: list
+        required: false
         default: []
         hint: one tag per line
       - { label: draft, name: draft, widget: boolean, default: false }
-      - { label: body, name: body, widget: markdown }
+      - { label: body, name: body, widget: markdown, required: false }
 
   - name: about
     label: about
