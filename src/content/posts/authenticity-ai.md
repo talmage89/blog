@@ -32,7 +32,7 @@ Everything else is commentary.
 
 ## 2. Etymology and pre-philosophical roots
 
-The English word "authentic" descends from Greek \*authentikos\* (αὐθεντικός), from \*authentēs\* (αὐθέντης)—meaning originally "one who acts on his own authority," and also, more darkly, "a perpetrator" or even "a murderer" (as in a self-slayer, \*auto-hentēs\*). The word carried from the beginning a double sense: \*\*self-origination\*\* (authority springing from oneself) and a kind of \*\*violence\*\* (acting without external warrant).
+The English word "authentic" descends from Greek \*authentikos\* (αὐθεντικός), from \*authentēs\* (αὐθέντης)—meaning, in the classical period, "doer," "master," or (strikingly) "murderer, perpetrator of violence" (including self-slaughter). The etymology beyond that point is contested: one common derivation reads \*authentēs\* as \*autos\* + \*hentēs\* ("self" + "doer/slayer"); another links it to \*autos\* + a form of \*einai\* ("self-being"). Either way, the word carried from the beginning a double sense: \*\*self-origination\*\* (authority springing from oneself) and a kind of \*\*violence\*\* (acting without external warrant).
 
 Via Late Latin \*authenticus\*, the word entered medieval Europe primarily as a juridical and ecclesiastical term: an \*authentic\* document was one whose origin could be verified (a sealed original, not a copy), an \*authentic\* relic was a genuine one. This sense—authenticity as \*\*non-forgery\*\*, authenticity as \*\*correspondence between a thing and its claimed origin\*\*—persists today whenever we speak of an authentic Rembrandt or an authentic Ming vase.
 
@@ -44,7 +44,7 @@ The shift from the objective sense (authenticity of \*things\*) to the existenti
 
 3. \*\*Montaigne and the essayistic self.\*\* Montaigne (late 16th c.) treats the self as a fluctuating, contradictory thing to be observed with candor rather than mastered with doctrine. His \*Essais\* institute a literary practice of self-display that feeds into later ideals of authentic selfhood.
 
-4. \*\*Rousseau and Romanticism.\*\* Rousseau is the pivotal modern figure. In the \*Confessions\* (1782) he opens with the astonishing claim that he will show himself "in every way true to nature," that no one else is made as he is, and that this singularity is what he presents. Rousseau couples this with a diagnosis (in \*Discourse on Inequality\* and \*Emile\*) of modern society as a machine for producing false, performative selves, alienated from their natural sentiments. \*Amour-propre\* (vanity, the self as reflected in others' eyes) displaces \*amour de soi\* (natural self-love). To be authentic, on this proto-existential picture, is to recover the natural voice beneath social artifice. The Romantics—Herder, Schiller, the Jena circle, Emerson (across the Atlantic)—run with this: each person has a distinctive inner "voice" or measure, and the task of a life is to sound it.
+4. \*\*Rousseau and Romanticism.\*\* Rousseau is the pivotal modern figure. In the \*Confessions\* (Books I–VI published posthumously 1782; VII–XII 1789) he opens with the astonishing claim that he will show himself "in every way true to nature," that no one else is made as he is, and that this singularity is what he presents. Rousseau couples this with a diagnosis (in \*Discourse on Inequality\* and \*Emile\*) of modern society as a machine for producing false, performative selves, alienated from their natural sentiments. \*Amour-propre\* (vanity, the self as reflected in others' eyes) displaces \*amour de soi\* (natural self-love). To be authentic, on this proto-existential picture, is to recover the natural voice beneath social artifice. The Romantics—Herder, Schiller, the Jena circle, Emerson (across the Atlantic)—run with this: each person has a distinctive inner "voice" or measure, and the task of a life is to sound it.
 
 This Romantic-Rousseauian package—inwardness + suspicion of society + uniqueness of the individual + an ethics of self-expression—is the \*cultural soil\* in which existentialist authenticity grows. What existentialism adds is a more radical diagnosis: the problem is not merely social corruption of a pure nature, but a structural feature of human existence itself. We don't just \*fall away\* from authenticity under social pressure; we are \*constitutively\* in flight from it.
 
@@ -256,9 +256,9 @@ Beauvoir's crucial move beyond Sartre: to will one's own freedom authentically i
 
 This move transforms authenticity from a solitary, Heideggerian achievement into a \*political\* project.
 
-### Typology of inauthentic lives
+### Typology of existential stances
 
-Beauvoir sketches figures of bad faith:
+Beauvoir sketches five figures of flight from freedom, culminating in a sixth figure who owns it:
 
 - \*\*The sub-man\*\*: flees from freedom into apathy and passivity.
 
@@ -270,7 +270,7 @@ Beauvoir sketches figures of bad faith:
 
 - \*\*The passionate man\*\*: wills a particular end absolutely, indifferent to others.
 
-- \*\*The free man\*\*: wills freedom for oneself \*and for others\*.
+- \*\*The free man\*\* (the authentic alternative): wills freedom for oneself \*and for others\*.
 
 ### \*The Second Sex\* as an existentialist diagnosis
 
@@ -306,7 +306,7 @@ Camus' authenticity is thus \*\*lucidity plus revolt\*\*: clear-eyed acceptance 
 
 - \*\*Paul Tillich\*\* (\*The Courage to Be\*, 1952): Christian existentialist theology. Authenticity is "courage to be" in the face of nonbeing—Angst—grounded in "the God above God."
 
-- \*\*Miguel de Unamuno\*\* (\*The Tragic Sense of Life\*, 1912): Spanish precursor. Authentic life lives in the tragic tension between the longing for immortality and rational doubt.
+- \*\*Miguel de Unamuno\*\* (\*The Tragic Sense of Life\*, 1913; written 1912): Spanish precursor. Authentic life lives in the tragic tension between the longing for immortality and rational doubt.
 
 - \*\*José Ortega y Gasset\*\*: life as radical reality, \*vocación\* (vocation) as the authentic task of each individual.
 
@@ -432,7 +432,7 @@ By the late 20th century, "authenticity" had migrated from philosophy into the c
 
 ### 15.1 Art and the aura
 
-Walter Benjamin's "The Work of Art in the Age of Mechanical Reproduction" (1935) had already foreseen the problem. The "aura" of an artwork—its unique presence in time and space, its embeddedness in tradition—is corroded by reproducibility. An authentic Vermeer can be reproduced pixel-perfect; the authenticity that remains is purely \*historical\* (this-particular-painted-surface), detached from any experienced quality. Benjamin, unlike later conservatives, saw this not as catastrophe but as a new political possibility—art freed from cultic authenticity and available for mass politicization. (And counter-politicization: fascism aestheticizes politics; communism politicizes aesthetics.)
+Walter Benjamin's "The Work of Art in the Age of Mechanical Reproduction" (drafted 1935, first published 1936) had already foreseen the problem. The "aura" of an artwork—its unique presence in time and space, its embeddedness in tradition—is corroded by reproducibility. An authentic Vermeer can be reproduced pixel-perfect; the authenticity that remains is purely \*historical\* (this-particular-painted-surface), detached from any experienced quality. Benjamin, unlike later conservatives, saw this not as catastrophe but as a new political possibility—art freed from cultic authenticity and available for mass politicization. (And counter-politicization: fascism aestheticizes politics; communism politicizes aesthetics.)
 
 ### 15.2 Music, subculture, and "selling out"
 
