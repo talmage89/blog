@@ -56,31 +56,14 @@ This concept of authenticity is obvious to recognize in your personal life. Your
 
 But while recognizing authenticity in the world is easy, living your own life this way is not so simple. It is an endless journey towards an unachievable ideal. For me, authenticity is a self-orientation mechanism, a way in which I might wake up, situate, and work towards myself. No description of someone else's authenticity will help me arrive to my own.
 
-There are a few core concepts that I've extracted and that I'm using to orient myself. These are my own articulations of what is helpful for me and for this exact position of my lifetime. The focuses I point out drive me closer to my own deeper, purer life. Your relationship to these concepts may be entirely different – this is okay, this is a deeply individual pursuit.
+There are a few core concepts I've extracted that I'm using to orient myself. These are my own articulations of what is helpful for this exact position of my lifetime. The focuses I point out drive me closer to my own deeper, purer life. Your relationship to these concepts may be entirely different – this is okay, this is a deeply individual pursuit.
 
-My first focus is self-maintenance, because it is too natural for me to instinctively put off anything that I imagine offering even the slightest friction. The consequence of this is a calcifying buildup of unaddressed tasks, unfinished desires, missed opportunities. Living with this backlog does not make me feel proud of myself. It causes me to live distracted. With the buildup I am endlessly multitasking, praying I don't forget something important. But even worse, it results in holding shame that I am not executing as I want to be.
+One focus is self-maintenance, because it is too natural for me to instinctively put off anything that I imagine offering even the slightest friction. The consequence of this is a calcifying buildup of unaddressed tasks, unfinished desires, missed opportunities. Living with this backlog does not make me feel proud of myself. It causes me to live distracted. With the buildup I am endlessly multitasking, praying I don't forget something important. But even worse, it results in holding shame that I am not executing as I want to be.
 
-Combating this is easy – just do everything you hate doing. Following through on my menial chores often feels like a fleeting success, but it has real and long-lasting impact on my self-image. Exploring opportunities that have long piqued my interest is not only rewarding in opening new, fascinating worlds, but also builds my self-trust.  After caring for my health I look at my body with affection. Life is regret-free. Clearing this backlog is a phenomenal weight off my shoulders and helps me to live with pride.
+Combating this is easy – just do everything you hate doing. Following through on my menial chores often feels like a fleeting success, but it has real and long-lasting impact on my self-image. Exploring opportunities that have long piqued my interest is not only rewarding in opening new, fascinating worlds, but also builds my self-trust.  After caring for my health I look at my body with affection. Life is regret-free. Clearing this backlog is a phenomenal weight off my shoulders and helps me to live with pride. My identity and my care for my identity are aligned.
 
 Another focus is intentionality. I seek awareness, consciousness of my environment, understanding my relation to it and the options available. The realized flow of this focus is a settled, authentic situational ownership in which I lead my moment alongside anyone with me. This is a direct exit from a lifestyle of Sartre's "bad faith". This is seizing the freedom I am condemned to and possessing it, exploring it, even playing with it.
 
-This concept in particular is easier said than done. I have intimately experienced the pain of extreme self-consciousness and self-awareness, and what I describe encourages even further awareness of myself. But importantly, the damage done by self-consciousness most often originates from self-judgement. There is a flavor of self-awareness with no judgement.
+This concept in particular is not as easy to explore safely. I have intimately experienced the pain of extreme self-consciousness and self-awareness, and what I describe encourages self-awareness even further. But importantly, the damage done by self-consciousness most often originates from judgement and desire. There is a rich flavor of self-awareness with no judgement. Recognize whether you are able to be aware of yourself while still remaining objective and detached. If you can't do this, find true satisfaction with your core identity and day-to-day decisions first.
 
-Last is social
-
-
-
-
-
-
-
-
-
-
-
-
- To live authentically is to live driven by an internal value system, eschewing social influences, authority, and victimhood. It's the idea of articulating the specific value system that is most true to your being and deriving your decisions from it.
-
-One of the primary ways I'm moving towards authenticity in my life is following through on my desires. Following through on dropping social media, following through on improving my style, following through on cleaning out my closet. I hate when people constantly talk about wishing they could do something, or wishing they would finally try this one thing -- you have the ability to do it so readily available to you. Just do it. Identifying a desire to try something, remove something from your life, or be a certain way, but never making the time to actually do it is an inauthentic way of life. Make the time to follow through and to be true to your desires.
-
-Another way I'm moving toward authentic life is self-expression. This is another form of holding oneself back, albeit through acute fear rather than laziness or friction.
+In states of both alignment and awareness, I feel as though I am living at the forefront of my existence, embodying my essence, confronting myself. I see myself in my form. I have the clarity to question where I am, and I can begin to decide how I want to be. I'm unable to reliably discern what authenticity is until I am here.
