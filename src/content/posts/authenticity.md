@@ -5,7 +5,9 @@ tags: []
 draft: true
 ---
 
-In existentialism, authenticity is a term for your ownership over your identity.  To live authentically is to lead your existence. It is a way of life in which you not only live sincerely, expressing outwardly what you feel inwardly, but also in which you live in accordance with your "ownmost" possibilities of life.
+In existentialism, authenticity is a term for your ownership over your identity.  To live authentically is to lead your existence. It is a way of life in which you not only live sincerely, expressing outwardly what you feel inwardly, but also in which you live in accordance with your "ownmost" possibilities of life. It describes choosing your most beautiful flight in the face of a cold, reluctant world.
+
+I have been drawn to this term
 
 Authenticity is very closely tied with living "true to yourself." This raises endless questions – who is the self that you are being true to? If the self is the set of actions that you perform, would being true to your self simply be a crystallization of the actions that you've already taken in your life? What dictates what direction your actions should move towards? If your values are what drives the trueness that is sought, would aligning these values to fit your actions also be considered "authentic"? This concept is deeply rooted in the question of what the self exists as.
 
@@ -48,17 +50,31 @@ Authenticity acknowledges freedom is non-optional and can be terrifying – to l
 
 Authenticity is fundamentally relational – you cannot live authentically without an environment to be authentic to, or other selves to learn authenticity with.
 
-While AI has many flaws, its ability to offer foundational knowledge in most domains so accessibly is invaluable. It has unlocked a massive jump in the baseline knowledge that the average individual has, which is very cool.
+While AI has many flaws, its ability to offer foundational knowledge in most domains so accessibly is invaluable. It has unlocked a massive jump in the baseline information that the average individual has, which is very cool.
 
-This concept of authenticity is obvious to recognize in your personal life. Your favorite YouTubers or podcasters might be your favorites because they are the "realest." Your best clothes, travel experiences, dates may be the ones that feel the most natural or raw. You feel inauthenticity too – eating fast food, hearing someone lie, scrolling past social media brainrot. We all prefer the authentic.
+This concept of authenticity is obvious to recognize in your personal life. Your favorite YouTubers or podcasters might be your favorites because they are the "realest." Your best clothes, travel experiences, dates may be the ones that feel the most natural or raw. You feel inauthenticity too – eating fast food, hearing someone lie, scrolling brainrot. We all prefer the authentic.
 
-But while recognizing authenticity in others is easy, living your own life this way is a separate matter. It is an endless journey towards an unachievable ideal. Some might argue there isn't even an ideal to work towards. For me, this is a self-orientation mechanism, a way in which I might wake up, situate, and work towards myself. No description of someone else's authenticity will help me arrive to my own.
+But while recognizing authenticity in the world is easy, living your own life this way is not so simple. It is an endless journey towards an unachievable ideal. For me, authenticity is a self-orientation mechanism, a way in which I might wake up, situate, and work towards myself. No description of someone else's authenticity will help me arrive to my own.
 
-There are a few core concepts that I've extracted and that I'm using to orient myself. These are my own articulations of authenticity. They are areas of focus that I've identified as more true to my
+There are a few core concepts that I've extracted and that I'm using to orient myself. These are my own articulations of what is helpful for me and for this exact position of my lifetime. The focuses I point out drive me closer to my own deeper, purer life. Your relationship to these concepts may be entirely different – this is okay, this is a deeply individual pursuit.
 
-One is intentionality. This requires awareness, consciousness of your environment, understanding your relation to it and the options you have available. With this recognition, and with an intentional choice, you may settle into an authentic situational ownership in which you lead your present with those around you. This aligns with Nichze 
+My first focus is self-maintenance, because it is too natural for me to instinctively put off anything that I imagine offering even the slightest friction. The consequence of this is a calcifying buildup of unaddressed tasks, unfinished desires, missed opportunities. Living with this backlog does not make me feel proud of myself. It causes me to live distracted. With the buildup I am endlessly multitasking, praying I don't forget something important. But even worse, it results in holding shame that I am not executing as I want to be.
 
-Another is self-maintenance. 
+Combating this is easy – just do everything you hate doing. Following through on my menial chores often feels like a fleeting success, but it has real and long-lasting impact on my self-image. Exploring opportunities that have long piqued my interest is not only rewarding in opening new, fascinating worlds, but also builds my self-trust.  After caring for my health I look at my body with affection. Life is regret-free. Clearing this backlog is a phenomenal weight off my shoulders and helps me to live with pride.
+
+Another focus is intentionality. I seek awareness, consciousness of my environment, understanding my relation to it and the options available. The realized flow of this focus is a settled, authentic situational ownership in which I lead my moment alongside anyone with me. This is a direct exit from a lifestyle of Sartre's "bad faith". This is seizing the freedom I am condemned to and possessing it, exploring it, even playing with it.
+
+This concept in particular is easier said than done. I have intimately experienced the pain of extreme self-consciousness and self-awareness, and what I describe encourages even further awareness of myself. But importantly, the damage done by self-consciousness most often originates from self-judgement. There is a flavor of self-awareness with no judgement.
+
+Last is social
+
+
+
+
+
+
+
+
 
 
 
