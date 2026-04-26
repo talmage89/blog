@@ -1,5 +1,5 @@
 ---
-title: Authenticity
+title: Something random
 date: 2026-04-22T21:45:00
 tags: []
 draft: true
