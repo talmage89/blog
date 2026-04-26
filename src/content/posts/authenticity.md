@@ -2,7 +2,7 @@
 title: Something random
 date: 2026-04-22T21:45:00
 tags: []
-draft: true
+draft: false
 ---
 
 In existentialism, authenticity is a term for your ownership over your identity.  To live authentically is to lead your existence. It is a way of life in which you not only live sincerely, expressing outwardly what you feel inwardly, but also in which you live in accordance with your "ownmost" possibilities of life. It describes choosing your most beautiful flight in the face of a cold, reluctant world.
