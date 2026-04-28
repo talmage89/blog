@@ -5,7 +5,7 @@ tags: []
 draft: true
 ---
 
-In existentialism, authenticity is a term for your ownership over your identity.  To live authentically is to lead your existence. It is a way of life in which you not only live sincerely, expressing outwardly what you feel inwardly, but also in which you live in accordance with your "ownmost" possibilities of life. It describes choosing your most beautiful flight in the face of a cold, reluctant world.
+In existentialism, authenticity is a term for your ownership over your identity.  To live authentically is to lead your existence. It is a way of life in which you not only might live sincerely, expressing outwardly what you feel inwardly, but also in which you live in accordance with your "ownmost" possibilities of life. It describes choosing your most beautiful flight in the face of a cold, reluctant world.
 
 I have been drawn to this term
 
@@ -13,7 +13,7 @@ Authenticity is very closely tied with living "true to yourself." This raises en
 
 I've posted [an AI report on authenticity](https://blog.talmage.dev/posts/authenticity-background/) that at least acknowledges these questions. It's an excellent introduction to the landscape in all its complexity. The Wikipedia articles on [authenticity](https://en.wikipedia.org/wiki/Authenticity_%28philosophy%29) and [existentialism](https://en.wikipedia.org/wiki/Existentialism) are also a fantastic resource for broader familiarization with the subject. It's easy to talk about being "true to yourself," but understanding the foundation underlying these specific concepts and the knowledge they are built upon leads to a much richer conversation. It is important to research what has already been thought through.
 
-However, this quickly gets out of the realm of thoughtful reading and into a space of abstract discussion that expects a deep knowledge of the entire historical conversation up to this moment in history. Here's a few snippets from the AI report that I found insightful:
+However, this quickly  leaves the realm of thoughtful reading, diving instead into a space of abstract discussion that expects a deep knowledge of the entire historical conversation up to this moment in history. Here's a few snippets from the AI report that I found insightful:
 
 > Kierkegaard’s famous dictum—“the crowd is untruth”—anticipates Heidegger’s \*das Man\* by nearly a century. The crowd absolves the individual of responsibility by diffusing it. Authentic existence requires becoming \*den Enkelte\*, the single individual, who stands alone and cannot hide in the anonymity of numbers.
 
@@ -21,7 +21,7 @@ Authenticity is fundamentally rooted in the personal experience and with being o
 
 > The self, for Nietzsche, is not discovered (as in Romantic introspection) but \*created\*. “One thing is needful: to ‘give style’ to one’s character” (\*Gay Science\* §290). The self is an artwork, composed of drives organized into a hierarchy, imposed upon by a sovereign will. Authentic existence is \*sculptural\*: the raw material of one’s instincts and accidents is shaped into a form that one can will again, an \*amor fati\*.
 
-Authenticity is living in an intentional and chosen way.
+Authenticity is living in an intentional, chosen way.
 
 > Death, for Heidegger, is not an event at the end of life but an \*ever-present possibility\* that constitutes what it is to be Dasein.
 > 
@@ -34,11 +34,11 @@ Authenticity is living in an intentional and chosen way.
 > 
 > Inauthentic Dasein flees death by treating it as an event that happens to others, by evasion, by comforting chatter. Authentic Dasein holds this being-toward-death open as a possibility—what Heidegger calls \*\*anticipation\*\* (\*Vorlaufen\*). Anticipating death does not mean thinking about it morbidly; it means allowing it to illuminate my existence as finite, as \*mine\*, as not-replaceable.
 
-Authenticity is living with full understanding of your constraints, including your impending death.
+Authenticity is living with full understanding of your constraints, especially mortality. It is rooted in the medium of a limited and unchosen existence.
 
 > Sartre’s famous thesis: we are “condemned to be free.” Freedom is not something we have; it is something we \*are\*. We cannot choose not to choose. Even refusal, paralysis, passivity are choices. Our facticity (body, past, class, language) is not a limit on freedom but the \*material\* of freedom—it is what freedom takes up and transcends.
 
-Authenticity acknowledges freedom is non-optional and can be terrifying – to live authentically is to see this freedom (and its constraints) for what it is and to truly accept it without falling into busy distraction or false transcendence.
+Authenticity acknowledges freedom is non-optional and can be terrifying – to live authentically is to see this freedom for what it is, and is to truly accept it without falling into busy distraction or false transcendence.
 
 > Beauvoir’s crucial move beyond Sartre: to will one’s own freedom authentically is to will the freedom of others. Unlike Sartre’s \*Being and Nothingness\*, where the Other is primarily an objectifying threat, Beauvoir sees others as the very medium through which my projects become meaningful. My freedom needs a world of free others. Oppression—colonialism, patriarchy, poverty—is not just a political evil; it is an ontological obstruction to authentic existence, because it denies others the conditions for exercising freedom.
 
@@ -48,9 +48,11 @@ Authenticity acknowledges freedom is non-optional and can be terrifying – to l
 > 2. \*\*Dialogical constitution\*\*: selves are formed in dialogue with significant others; we learn what we are by speaking, loving, struggling with others. Authenticity is not monological.
 > 3. \*\*Horizons of significance\*\*: the self cannot create value \*ex nihilo\*. What I can meaningfully be is constrained by the horizons of significance available in my culture; the question “what is worth doing?” cannot be dissolved into “what do I want?”
 
-Authenticity is fundamentally relational – you cannot live authentically without an environment to be authentic to, or other selves to learn authenticity with.
+Authenticity is relational – you cannot live authentically without an environment to be authentic to, or other selves to learn authenticity with.
 
 While AI has many flaws, its ability to offer foundational knowledge in most domains so accessibly is invaluable. It has unlocked a massive jump in the baseline information that the average individual has, which is very cool.
+
+With this foundation of understanding for what many philosophers are referring to when discussing authenticity, I hope you can visualize what energy "authenticity" is in your own life and in the lives you observe. 
 
 This concept of authenticity is obvious to recognize in your personal life. Your favorite YouTubers or podcasters might be your favorites because they are the "realest." Your best clothes, travel experiences, dates may be the ones that feel the most natural or raw. You feel inauthenticity too – eating fast food, hearing someone lie, scrolling brainrot. We all prefer the authentic.
 
@@ -58,7 +60,7 @@ But while recognizing authenticity in the world is easy, living your own life th
 
 There are a few core concepts I've extracted that I'm using to orient myself. These are my own articulations of what is helpful for this exact position of my lifetime. The focuses I point out drive me closer to my own deeper, purer life. Your relationship to these concepts may be entirely different – this is okay, this is a deeply individual pursuit.
 
-One focus is self-maintenance, because it is too natural for me to instinctively put off anything that I imagine offering even the slightest friction. The consequence of this is a calcifying buildup of unaddressed tasks, unfinished desires, missed opportunities. Living with this backlog does not make me feel proud of myself. It causes me to live distracted. With the buildup I am endlessly multitasking, praying I don't forget something important. But even worse, it results in holding shame that I am not executing as I want to be.
+One focus is self-maintenance, because it is too natural for me to instinctively put off anything that I imagine offering even the slightest friction. The consequence of this is a calcifying buildup of unaddressed tasks, unfinished desires, missed opportunities. Living with this backlog does not make me feel proud of myself. It causes me to live distracted. With the buildup I am endlessly multitasking, praying I don't forget something important. Worse, it results in holding shame that I am not executing as I want to be.
 
 Combating this is easy – just do everything you hate doing. Following through on my menial chores often feels like a fleeting success, but it has real and long-lasting impact on my self-image. Exploring opportunities that have long piqued my interest is not only rewarding in opening new, fascinating worlds, but also builds my self-trust.  After caring for my health I look at my body with affection. Life is regret-free. Clearing this backlog is a phenomenal weight off my shoulders and helps me to live with pride. My identity and my care for my identity are aligned.
 
